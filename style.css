@@ -1,0 +1,121 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.section {
+    padding: 80px 20px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.section h2 {
+    text-align: center;
+    color: #333;
+}
+
+.section p, .section img, .section video, .method {
+    margin-bottom: 20px;
+}
+
+.method img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+footer .social {
+    margin-top: 10px;
+}
+
+footer .social a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 1.2em;
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 80px 20px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.method img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+video {
+    width: 70%; 
+    max-width: 800px; 
+    height: auto; /* الحفاظ على نسبة العرض إلى الارتفاع الأصلية */
+    display: block;
+    margin: 0 auto; /* وسطي الفيديو داخل الحاوية */
+}
+
+
+.video-container {
+    padding: 20px;
+    text-align: center;
+}
